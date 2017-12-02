@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to my page :) (in beta)
 
-You can use the [editor on GitHub](https://github.com/ragavendra/github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+You can chek my repositories on [GitHub](https://github.com/ragavendra/) 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I am interested in new technologies such as Elixir, Erlang, Golang, Ruby, Python, Java, C, Tcl/Tk, JS, SASS and all. I have touched almost all of them in somr point in my life :)
 
 ### Markdown
 
