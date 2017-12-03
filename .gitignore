@@ -3,7 +3,8 @@
 *.swp
 *.swo
 
-/log/
+log/
+spring/
 
 /.config
 /coverage/
