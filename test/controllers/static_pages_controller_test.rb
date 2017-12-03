@@ -35,7 +35,6 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
 	def after_test
     assert_response :success
     assert_select "title", "#{@title_prefix} | #{@base_title}"
-		#assert_select "h3".include?, @title_prefix
 	end
 
 end
