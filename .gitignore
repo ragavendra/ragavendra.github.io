@@ -1,5 +1,10 @@
 *.gem
 *.rbc
+*.swp
+*.swo
+
+/log/
+
 /.config
 /coverage/
 /InstalledFiles
