@@ -1,37 +1,24 @@
-## Welcome to my page :) (in beta)
+# README
 
-You can chek my repositories on [GitHub](https://github.com/ragavendra/) 
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-I am interested in new technologies such as Elixir, Erlang, Golang, Ruby, Python, Java, C, Tcl/Tk, JS, SASS and all. I have touched almost all of them in somr point in my life :)
+Things you may want to cover:
 
-### Markdown
+* Ruby version
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* System dependencies
 
-```markdown
-Syntax highlighted code block
+* Configuration
 
-# Header 1
-## Header 2
-### Header 3
+* Database creation
 
-- Bulleted
-- List
+* Database initialization
 
-1. Numbered
-2. List
+* How to run the test suite
 
-**Bold** and _Italic_ and `Code` text
+* Services (job queues, cache servers, search engines, etc.)
 
-[Link](url) and ![Image](src)
-```
+* Deployment instructions
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ragavendra/github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* ...
