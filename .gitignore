@@ -5,6 +5,7 @@
 
 log/
 spring/
+db/test.sqlite3
 
 /.config
 /coverage/
