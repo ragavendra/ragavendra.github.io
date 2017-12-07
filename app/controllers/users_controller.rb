@@ -10,11 +10,14 @@ class UsersController < ApplicationController
 		@user = User.new(user_params)
 		if @user.save
 
-			#find if user save success
-			@message = "User created successfully" if User.find_by_email(@user.email)
+			#message for success save
+			flash[:success] = "Welcome #{@user.name} your account is now created successfully"
 			
+			#goes to #show action with flash
 			redirect_to	@user
+
 		else
+
 			render 'new'
 		end
 	end
@@ -22,9 +25,7 @@ class UsersController < ApplicationController
   def show
 		@user = User.find(params[:id])
 		
-			@message = "User created successfully" if User.find_by_email(@user.email)
-		#return message for success save
-		return @user, @message
+		@user
   end
 
 	private
