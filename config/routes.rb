@@ -1,12 +1,14 @@
 Rails.application.routes.draw do
 
-  get 'static_pages/home'
-  get '/help', to: 'static_pages#help'
-  get '/about', to: 'static_pages#about'
-  get '/blog', to: 'static_pages#blog'
-  get '/contact', to: 'static_pages#contact'
-  get '/login', to: 'static_pages#login'
-  get '/signup', to: 'users#new', as: 'signup'
+	get 'static_pages/home'
+	get '/help', to: 'static_pages#help'
+	get '/about', to: 'static_pages#about'
+	get '/blog', to: 'static_pages#blog'
+	get '/contact', to: 'static_pages#contact'
+	get '/signup', to: 'users#new', as: 'signup'
+	get '/login', to: 'sessions#new'
+	post '/login', to: 'sessions#create'
+	get '/logout', to: 'sessions#destroy'
 
 	resources	:users
 
