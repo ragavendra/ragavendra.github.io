@@ -10,6 +10,9 @@ class UsersController < ApplicationController
 		@user = User.new(user_params)
 		if @user.save
 
+			#log in
+			log_in @user
+
 			#message for success save
 			flash[:success] = "Welcome #{@user.name} your account is now created successfully"
 			

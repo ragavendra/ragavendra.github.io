@@ -8,7 +8,6 @@ class SessionsController < ApplicationController
 
 		#auth returns true if valid
 		if user && user.authenticate(params[:session][:password])
-			flash[:message] = "Login successful"
 			log_in user
 			redirect_to user
 		else
@@ -19,6 +18,8 @@ class SessionsController < ApplicationController
 	end
 
 	def destroy
+		log_out
+		redirect_to root_url
 	end
 
 end
