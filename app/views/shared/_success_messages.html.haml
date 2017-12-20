@@ -1,0 +1,7 @@
+/ check if any errors on save
+- # unless @user.errors.any?
+/ check if message var is not empty
+- unless @message.nil?
+  #success_explanation
+    .alert.alert-success
+      User #{@user.name} saved succesfully
