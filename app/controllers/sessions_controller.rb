@@ -9,7 +9,8 @@ class SessionsController < ApplicationController
 		#auth returns true if valid
 		if user && user.authenticate(params[:session][:password])
 			log_in user
-			redirect_to user
+			redirect_back_or user
+			flash[:success] = "#{user.name} logged in succesfully"
 		else
 			flash[:danger] = "Login not successful"
 			render 'new'
