@@ -2,7 +2,7 @@ Ragavendra Nagraj
 
 QA Automation Engineer 
 
-Email – ragavendra.bn@gmail.com | Cell# +1 236 975 9592 | Github - @ragavendra 
+Github - @ragavendra 
 
  
 
