@@ -11,10 +11,19 @@
     <script src="index.js"></script>
     <title>Traffic near me</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    
+    <!-- Responsive menu -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- jsFiddle will insert css and js -->
   </head>
   <body>
+    <ul class="topnav">
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">Bike Map</a></li>
+      <li><a href="#contact">Traffic Map</a></li>
+      <li class="right"><a href="#about">About</a></li>
+    </ul>
     <div id="map"></div>
 
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
